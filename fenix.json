@@ -1,5 +1,5 @@
 {
-  "$schema": "https://git.demuxedlogic.nl/Beatskip/Wasm-Templates/raw/branch/master/fenix.json",
+  "$schema": "https://raw.githubusercontent.com/FenixTemplates/FenixTemplates/master/fenix-schema.json",
   "author": "Beatskip",
   "repoName": "Easy WASM Projects",
   "repoUrl": "https://raw.githubusercontent.com/BeatSkip/wasm-templates/master/",
