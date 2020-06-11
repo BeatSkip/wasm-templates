@@ -2,13 +2,26 @@
     "version": "1.0.0",
     "tasks": [
         {
-            "label": "Build wasm",
+            "label": "Build and run wasm",
             "type": "shell",
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
+            "command": "${command:extension.liveServer.goOnline}",
+            "dependsOn":["makeindex"]
+        },
+        {
+            "label": "buildmake",
+            "type": "shell",
             "command": "mingw32-make",
+            "group": "build"
+        },
+        {
+            "label": "makeindex",
+            "type": "shell",
+            "command": "mv ${workspaceFolder}/bin/main.html ${workspaceFolder}/bin/index.html",
+            "dependsOn":["buildmake"]
         }
     ]
 }
