@@ -1,0 +1,24 @@
+{
+    "liveServer.settings.port": 4500,
+    "liveServer.settings.root": "/bin/",
+    "liveServer.settings.CustomBrowser" : "chrome",
+    "liveServer.settings.ChromeDebuggingAttachment": false,
+    "liveServer.settings.NoBrowser" : false,
+    "liveServer.settings.ignoreFiles" : [
+            ".vscode/**",
+            "**/*.scss",
+            "**/*.sass"
+    ],
+    "C_Cpp.default.includePath": ["D:\\Unity\\Programming\\Emscripten-SDK\\upstream\\emscripten\\system\\include\\libcxx",
+        "D:\\Unity\\Programming\\Emscripten-SDK\\upstream\\emscripten\\system\\lib\\libcxxabi\\include",
+        "D:\\Unity\\Programming\\Emscripten-SDK\\upstream\\emscripten\\system\\lib\\libunwind\\include",
+        "D:\\Unity\\Programming\\Emscripten-SDK\\upstream\\emscripten\\system\\include\\compat",
+        "D:\\Unity\\Programming\\Emscripten-SDK\\upstream\\emscripten\\system\\include",
+        "D:\\Unity\\Programming\\Emscripten-SDK\\upstream\\emscripten\\system\\include\\libc",
+        "D:\\Unity\\Programming\\Emscripten-SDK\\upstream\\emscripten\\system\\lib\\libc\\musl\\arch\\emscripten",
+        "D:\\Unity\\Programming\\Emscripten-SDK\\upstream\\emscripten\\system\\local\\include",   
+        "D:\\Unity\\Programming\\Emscripten-SDK\\upstream\\emscripten\\system\\include\\SDL",
+        "D:\\Unity\\Programming\\Emscripten-SDK\\upstream\\lib\\clang\\11.0.0\\include"
+        ]
+
+}
