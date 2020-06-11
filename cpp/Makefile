@@ -1,4 +1,4 @@
-CXX		  := g++
+CXX		  := em++
 CXX_FLAGS := -Wall -Wextra -std=c++17 -ggdb
 
 BIN		:= bin
@@ -7,7 +7,7 @@ INCLUDE	:= include
 LIB		:= lib
 
 LIBRARIES	:=
-EXECUTABLE	:= main
+EXECUTABLE	:= main.html
 
 
 all: $(BIN)/$(EXECUTABLE)
