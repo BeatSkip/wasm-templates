@@ -2,7 +2,7 @@
   "$schema": "https://git.demuxedlogic.nl/Beatskip/Wasm-Templates/raw/branch/master/fenix.json",
   "author": "Beatskip",
   "repoName": "Easy WASM Projects",
-  "repoUrl": "https://git.demuxedlogic.nl/Beatskip/Wasm-Templates/raw/branch/master",
+  "repoUrl": "https://raw.githubusercontent.com/BeatSkip/wasm-templates/master/",
   "version": 1.0,
   "templates": [
     {
