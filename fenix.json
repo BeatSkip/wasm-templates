@@ -42,6 +42,10 @@
               {
                   "from": "cpp/settings.json",
                   "to": ".vscode/settings.json"
+              },
+              {
+                  "from": "cpp/cppproperties.json",
+                  "to": ".vscode/c_cpp_properties.json"
               }
             
           ],
