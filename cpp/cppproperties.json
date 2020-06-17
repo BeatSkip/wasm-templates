@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "EmscriptenConfigJoma",
+            "includePath": [
+                "${workspaceFolder}",
+                "Include",
+                "D:/Unity/Programming/Emscripten-SDK/upstream/emscripten/system/include/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "D:/Unity/Programming/Emscripten-SDK/upstream/emscripten/em++.bat",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
